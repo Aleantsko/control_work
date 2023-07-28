@@ -1,0 +1,133 @@
+<mxfile host="app.diagrams.net" modified="2023-07-28T14:12:56.199Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.1.1140 Yowser/2.5 Safari/537.36" etag="5jaZfKRvpToGb4tyHfvA" version="21.6.5" type="device">
+  <diagram name="Страница 1" id="Jxkfgexix_ehyh5JpkuV">
+    <mxGraphModel dx="792" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HoeRnp-dgjdPxACX_JoD-1" value="Написать программу, которая из имеющегося массива строк формирует новый массив из строк, длина которых меньше, либо равна 3 символам. Первоначальный массив можно ввести с клавиатуры, либо задать на старте выполнения алгоритма. При решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="430" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HoeRnp-dgjdPxACX_JoD-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HoeRnp-dgjdPxACX_JoD-3" target="HoeRnp-dgjdPxACX_JoD-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HoeRnp-dgjdPxACX_JoD-3" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="169" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HoeRnp-dgjdPxACX_JoD-4" value="End" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="169" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HoeRnp-dgjdPxACX_JoD-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HoeRnp-dgjdPxACX_JoD-5" target="HoeRnp-dgjdPxACX_JoD-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HoeRnp-dgjdPxACX_JoD-5" value="&lt;div style=&quot;text-align: start;&quot;&gt;string[] arr = { &quot;qwerty&quot;, &quot;qwe&quot;, &quot;asdfg&quot; };&lt;/div&gt;&lt;div style=&quot;text-align: start;&quot;&gt;string[] answer = { };&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="109.5" y="210" width="239" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HoeRnp-dgjdPxACX_JoD-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HoeRnp-dgjdPxACX_JoD-8" target="HoeRnp-dgjdPxACX_JoD-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HoeRnp-dgjdPxACX_JoD-8" value="int i = 0; i&amp;lt; arr.Length; i++" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="136" y="300" width="186" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HoeRnp-dgjdPxACX_JoD-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HoeRnp-dgjdPxACX_JoD-9" target="HoeRnp-dgjdPxACX_JoD-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="85" y="530" />
+              <mxPoint x="85" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HoeRnp-dgjdPxACX_JoD-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HoeRnp-dgjdPxACX_JoD-9" target="HoeRnp-dgjdPxACX_JoD-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HoeRnp-dgjdPxACX_JoD-9" value="Array.Resize(ref answer, answer.Length + 1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="136" y="500" width="186" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HoeRnp-dgjdPxACX_JoD-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HoeRnp-dgjdPxACX_JoD-13" target="HoeRnp-dgjdPxACX_JoD-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HoeRnp-dgjdPxACX_JoD-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HoeRnp-dgjdPxACX_JoD-13" target="HoeRnp-dgjdPxACX_JoD-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="840" />
+              <mxPoint x="360" y="980" />
+              <mxPoint x="229" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HoeRnp-dgjdPxACX_JoD-13" value="int i = 0; i&amp;lt; answer.Length; i++" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="136" y="800" width="186" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HoeRnp-dgjdPxACX_JoD-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.488;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HoeRnp-dgjdPxACX_JoD-16" target="HoeRnp-dgjdPxACX_JoD-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="92" y="930" />
+              <mxPoint x="92" y="840" />
+              <mxPoint x="135" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HoeRnp-dgjdPxACX_JoD-16" value="System.Console.WriteLine(answer[i])" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="118.5" y="900" width="221" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HoeRnp-dgjdPxACX_JoD-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HoeRnp-dgjdPxACX_JoD-17" target="HoeRnp-dgjdPxACX_JoD-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HoeRnp-dgjdPxACX_JoD-20" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HoeRnp-dgjdPxACX_JoD-19">
+          <mxGeometry x="0.2059" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HoeRnp-dgjdPxACX_JoD-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HoeRnp-dgjdPxACX_JoD-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HoeRnp-dgjdPxACX_JoD-29" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HoeRnp-dgjdPxACX_JoD-28">
+          <mxGeometry x="0.0398" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HoeRnp-dgjdPxACX_JoD-17" value="arr[i].Length &amp;lt;= 3" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="166" y="410" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HoeRnp-dgjdPxACX_JoD-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HoeRnp-dgjdPxACX_JoD-31" target="HoeRnp-dgjdPxACX_JoD-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HoeRnp-dgjdPxACX_JoD-35" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HoeRnp-dgjdPxACX_JoD-34">
+          <mxGeometry x="-0.4578" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HoeRnp-dgjdPxACX_JoD-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HoeRnp-dgjdPxACX_JoD-31" target="HoeRnp-dgjdPxACX_JoD-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="625" />
+              <mxPoint x="80" y="780" />
+              <mxPoint x="229" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HoeRnp-dgjdPxACX_JoD-41" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HoeRnp-dgjdPxACX_JoD-40">
+          <mxGeometry x="-0.8099" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HoeRnp-dgjdPxACX_JoD-31" value="answer.Length &amp;gt; 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="163.5" y="585" width="131" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HoeRnp-dgjdPxACX_JoD-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HoeRnp-dgjdPxACX_JoD-33" target="HoeRnp-dgjdPxACX_JoD-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="730" />
+              <mxPoint x="390" y="980" />
+              <mxPoint x="229" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HoeRnp-dgjdPxACX_JoD-33" value="System.Console.WriteLine(&quot;Массив пустой!&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="98.75" y="700" width="260.5" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
